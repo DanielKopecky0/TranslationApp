@@ -15,7 +15,8 @@
   #input{width:349px; height:599px; background-color:#c6ebc6; float:left}
   #output{width:349px; height:599px; background-color:#c6ebc6; float:right}
   #recipients{width:700px; height:70px; background-color:#8cd98c}
-  textarea{margin:5px; width: 334px; height: 584px;}
+  #text-in{margin:5px; width: 334px; height: 584px; resize: none;}
+  #text-out{margin:5px; width: 334px; height: 584px; resize: none;}
  </style>
 </head>
 
@@ -29,8 +30,8 @@
    </div>
    <div id="io-type"></div>
    <div id="input-output">
-    <div id="input"><textarea placeholder="Type Here..."></textarea></div>
-    <div id="output"></div>
+    <div id="input"><textarea id="text-in" placeholder="Type Here..."></textarea></div>
+    <div id="output"><textarea id="text-out" placeholder="Output here..."></textarea></div>
    </div>
    <div id="recipients"></div>
    
